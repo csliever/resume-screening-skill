@@ -1,0 +1,7 @@
+interface:
+  display_name: "Resume Screening"
+  short_description: "Screen resumes against job requirements"
+  default_prompt: "Use $resume-screening to evaluate this candidate resume against the hiring requirement and recommend whether to proceed to interview."
+
+policy:
+  allow_implicit_invocation: true

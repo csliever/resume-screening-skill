@@ -1,0 +1,16 @@
+# Local/private screening inputs and outputs.
+*.txt
+*_初筛报告.md
+*初筛*.md
+*招聘需求*.md
+*招聘需求*.txt
+*候选人*.md
+*候选人*.txt
+*简历*.md
+*简历*.txt
+
+# Tool-local settings and caches.
+.claude/
+.codex/
+.DS_Store
+Thumbs.db
