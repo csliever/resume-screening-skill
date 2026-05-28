@@ -60,6 +60,72 @@ Resume:
 ...
 ```
 
+## 支持格式 / Supported Formats
+
+### 招聘需求 / Hiring Requirements
+
+推荐格式：
+
+- 直接粘贴的文本
+- `.txt`
+- `.md`
+
+可兼容格式：
+
+- `.docx`、`.pdf`、网页 JD、招聘平台导出的内容，只要当前 AI 工具或工作流能够读取并提取其中的文本
+- 表格中的岗位要求，例如 `.xlsx`、`.csv`，但建议先整理为文本化的岗位职责、必备条件、加分项和淘汰条件
+
+Recommended formats:
+
+- pasted plain text
+- `.txt`
+- `.md`
+
+Compatible formats:
+
+- `.docx`, `.pdf`, web job descriptions, or exported recruiting-platform content, as long as your AI tool or workflow can read and extract the text
+- spreadsheet-based requirements such as `.xlsx` or `.csv`, preferably converted into clear responsibilities, must-have requirements, nice-to-have requirements, and disqualifiers
+
+### 候选人简历 / Candidate Resumes
+
+推荐格式：
+
+- 直接粘贴的简历文本
+- `.txt`
+- `.md`
+
+可兼容格式：
+
+- `.docx`
+- 可复制文本的 `.pdf`
+- 招聘平台导出的简历文本
+- 多候选人批量筛选时，可以使用按候选人分段的 `.txt` 或 `.md`
+
+限制：
+
+- 扫描版 PDF、图片简历、截图简历需要先 OCR 成可读取文本。
+- 简历排版、图表、头像、证书截图等视觉信息不会作为主要判断依据。
+- 如果文件内容无法被当前 AI 工具读取，请先复制出文本再使用。
+
+Recommended formats:
+
+- pasted resume text
+- `.txt`
+- `.md`
+
+Compatible formats:
+
+- `.docx`
+- text-selectable `.pdf`
+- resume text exported from recruiting platforms
+- for batch screening, `.txt` or `.md` files split clearly by candidate
+
+Limitations:
+
+- scanned PDFs, image resumes, and screenshots should be OCR-processed into readable text first
+- visual layout, charts, profile photos, and certificate screenshots should not be treated as primary screening evidence
+- if your AI tool cannot read the file directly, extract or paste the text before using the skill
+
 ## 输出内容 / Output
 
 该 Skill 会输出结构化初筛报告，包括：
